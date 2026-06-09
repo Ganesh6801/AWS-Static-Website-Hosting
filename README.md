@@ -29,7 +29,7 @@ http://ganesh-cloud-portfolio-2026.s3-website-us-east-1.amazonaws.com/
 ![Bucket Policy](04-bucket-policy.jpg)
 
 ### Website Screenshot
-![Website Screenshot](Static_website_hosting(2).jpg)
+![Static Website Screenshot](Static_website_hosting(2).jpg)
 
 ## Author
 Venna Ganesh
