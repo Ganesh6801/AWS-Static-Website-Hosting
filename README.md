@@ -14,6 +14,22 @@ Host a static portfolio website using Amazon S3.
 
 ## Live Website
 http://ganesh-cloud-portfolio-2026.s3-website-us-east-1.amazonaws.com/
+## Screenshots
+
+### S3 Bucket List
+![S3 Bucket](01-s3-bucket-list.jpg)
+
+### Files Uploaded
+![Files Uploaded](02-files-uploaded.jpg)
+
+### Static Website Hosting
+![Static Website Hosting](03-static-website-hosting.jpg)
+
+### Bucket Policy
+![Bucket Policy](04-bucket-policy.jpg)
+
+### Website Screenshot
+![Website Screenshot](Static_website_hosting(2).jpg)
 
 ## Author
 Venna Ganesh
