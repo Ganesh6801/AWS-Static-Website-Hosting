@@ -12,8 +12,10 @@ Host a static portfolio website using Amazon S3.
 - Publicly accessible through S3 Website Endpoint
 - Responsive design
 
-## Live Website
+## Live Website( US-east region)
 http://ganesh-cloud-portfolio-2026.s3-website-us-east-1.amazonaws.com/
+## Live Website 2(Asia Pacific Region)
+http://ganesh-portfolio-2.s3-website.ap-south-2.amazonaws.com/
 ## Screenshots
 
 ### S3 Bucket List
