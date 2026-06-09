@@ -16,6 +16,12 @@ Host a static portfolio website using Amazon S3.
 http://ganesh-cloud-portfolio-2026.s3-website-us-east-1.amazonaws.com/
 ## Live Website 2(Asia Pacific Region)
 http://ganesh-portfolio-2.s3-website.ap-south-2.amazonaws.com/
+## 🚨NOTE 🚨
+IF YOU EXPERIENCE THE SITE CAN'T BE REACHED / ERR_CONNECTION_REST/RELOAD 
+please check the url is running with "" http "" not HTTPS. SOME BROWSERS TAKES "" HTTPS "" BY DEFAULT.
+SO I KNDLY REQUEST YOU TO PLEASE CROSS CHECK THE URL AFTER EXPERIENCING THOSE THINGS 
+
+OPEN THE URL SECTION IN YOUR BROWSER AND EDIT IT AS BY CHANGING " https "TO  " http " 🚨🚨
 
 ## website Video proof link
 https://drive.google.com/file/d/1gTA4R7fBowJgqglGPztBO4yJl4XgMTY5/view?usp=drivesdk
