@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venna Ganesh Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:4rem;
+color:#38bdf8;
+}
+
+.hero h2{
+margin-top:10px;
+font-weight:300;
+}
+
+.hero p{
+margin-top:20px;
+max-width:700px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+font-weight:bold;
+border-radius:30px;
+text-decoration:none;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:50px;
+color:#38bdf8;
+}
+
+.about{
+text-align:center;
+line-height:1.8;
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.skill-card{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+transition:.4s;
+}
+
+.skill-card:hover{
+transform:translateY(-10px);
+}
+
+.progress{
+background:#334155;
+height:10px;
+border-radius:20px;
+overflow:hidden;
+margin-top:10px;
+}
+
+.progress span{
+display:block;
+height:100%;
+background:#38bdf8;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.project-card{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+transition:.4s;
+}
+
+.project-card:hover{
+transform:scale(1.05);
+}
+
+.cert-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.cert-card{
+background:#1e293b;
+padding:20px;
+border-radius:12px;
+text-align:center;
+}
+
+.contact{
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>Venna Ganesh</h1>
+
+<h2>Cloud Engineer | Full Stack Developer</h2>
+
+<p>
+Passionate Computer Science student focused on Cloud Computing,
+Web Development, and Problem Solving.
+</p>
+
+<a href="#" class="btn">Download Resume</a>
+
+</div>
+
+</header>
+
+<section>
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+
+<p>
+Motivated B.Tech Computer Science student with strong programming
+and problem-solving skills. Experienced in developing web
+applications and continuously learning Cloud Technologies.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+<h3>HTML & CSS</h3>
+<div class="progress"><span style="width:90%"></span></div>
+</div>
+
+<div class="skill-card">
+<h3>JavaScript</h3>
+<div class="progress"><span style="width:85%"></span></div>
+</div>
+
+<div class="skill-card">
+<h3>Java</h3>
+<div class="progress"><span style="width:80%"></span></div>
+</div>
+
+<div class="skill-card">
+<h3>Python</h3>
+<div class="progress"><span style="width:75%"></span></div>
+</div>
+
+<div class="skill-card">
+<h3>Node.js</h3>
+<div class="progress"><span style="width:80%"></span></div>
+</div>
+
+<div class="skill-card">
+<h3>MongoDB</h3>
+<div class="progress"><span style="width:85%"></span></div>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>Employee Dashboard System</h3>
+<p>
+Full Stack application using HTML, CSS, JavaScript,
+Node.js and MongoDB.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Event Management System</h3>
+<p>
+Web-based event scheduling and management platform.
+</p>
+</div>
+
+<div class="project-card">
+<h3>AWS Cloud Portfolio</h3>
+<p>
+Static website hosting on AWS S3 with cloud deployment.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Serverless API</h3>
+<p>
+AWS Lambda and API Gateway based serverless project.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Certifications</h2>
+
+<div class="cert-grid">
+
+<div class="cert-card">IBM</div>
+<div class="cert-card">Red Hat</div>
+<div class="cert-card">Infosys Springboard</div>
+<div class="cert-card">MongoDB</div>
+<div class="cert-card">EduSkills</div>
+<div class="cert-card">Forage (Tata & Deloitte)</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Internships</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>UiPath RPA Developer</h3>
+<p>Automation and workflow development.</p>
+</div>
+
+<div class="project-card">
+<h3>Amazon Academy Data Engineering</h3>
+<p>Data pipelines and processing fundamentals.</p>
+</div>
+
+<div class="project-card">
+<h3>Palo Alto Cybersecurity</h3>
+<p>Security concepts and threat management.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Contact Me</h2>
+
+<div class="contact">
+
+<p>📧 ganeshyt8606@gmail.com</p>
+<p>📱 +91 8019956691</p>
+<p>💻 GitHub: github.com/Ganesh6801</p>
+<p>🔗 LinkedIn: linkedin.com/in/vennaganesh</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Venna Ganesh. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
